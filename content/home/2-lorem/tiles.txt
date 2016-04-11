@@ -1,0 +1,13 @@
+Title: Lorem
+
+----
+
+Style: 1
+
+----
+
+Cover: pic02.jpg
+
+----
+
+Text: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.

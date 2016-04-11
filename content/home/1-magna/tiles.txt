@@ -1,0 +1,13 @@
+Title: Magna
+
+----
+
+Style: 0
+
+----
+
+Text: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
+
+----
+
+Cover: pic01.jpg

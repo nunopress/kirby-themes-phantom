@@ -1,0 +1,13 @@
+Title: Veroeros
+
+----
+
+Style: 5
+
+----
+
+Cover: pic06.jpg
+
+----
+
+Text: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.

@@ -1,0 +1,13 @@
+Title: Aliquam
+
+----
+
+Style: 4
+
+----
+
+Cover: pic05.jpg
+
+----
+
+Text: Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.

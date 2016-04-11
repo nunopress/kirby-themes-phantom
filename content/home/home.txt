@@ -1,0 +1,12 @@
+Title: Home
+
+----
+
+Head-title: 
+
+This is Phantom, a free, fully responsive site
+theme designed by (link: http://html5up.net text: HTML5 UP) and (link: http://nunopress.com text: NunoPress LLC).
+
+----
+
+Head-text: Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
