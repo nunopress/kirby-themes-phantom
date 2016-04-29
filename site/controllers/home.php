@@ -11,9 +11,12 @@ return function ($site, $pages, $page, $args) {
         return;
     }
 
-    mail($site->email(), sprintf("Contact form site by %s", $query['name']), $query['message'], sprintf("From: <%s> %s", $query['email'], $query['name']));
+    $email = email([
+        'to' => $site->email(),
+        'from' => $query['email'],
+        'subject' => sprintf("Contact form site by %s <%s>", $query['name'], $query['email']),
+        'body' => $query['message']
+    ]);
 
-    return [
-        'success_form_sending' => "Email is sent successfully!"
-    ];
+    return ($email->send()) ? [ 'success_form_sending' => true ] : [ 'contact_form_error' => $email->error() ];
 };
