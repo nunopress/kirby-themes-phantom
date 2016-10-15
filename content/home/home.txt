@@ -10,3 +10,56 @@ theme designed by (link: http://html5up.net text: HTML5 UP) and (link: http://nu
 ----
 
 Head-text: Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
+
+----
+
+Tiles: 
+
+- 
+  tile_title: magna
+  tile_style: style1
+  tile_cover: pic01.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: tiles/magna
+- 
+  tile_title: Lorem
+  tile_style: style2
+  tile_cover: pic02.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: tiles/lorem
+-
+  tile_title: Feugiat
+  tile_style: style3
+  tile_cover: pic03.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: tiles/feugiat
+-
+  tile_title: Tempus
+  tile_style: style4
+  tile_cover: pic04.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: tiles/tempus
+-
+  tile_title: Aliquam
+  tile_style: style5
+  tile_cover: pic05.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: tiles/aliquam
+-
+  tile_title: New Tiles
+  tile_style: style6
+  tile_cover: pic06.jpg
+  tile_text: >
+    Sed nisl arcu euismod sit amet nisi
+    lorem etiam dolor veroeros et feugiat.
+  tile_page: new-tiles

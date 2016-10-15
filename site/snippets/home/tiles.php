@@ -1,16 +1,16 @@
 <section class="tiles">
-    <?php foreach ($page->children()->visible() as $p): ?>
-        <article class="<?php e($p->style()->isNotEmpty(), "style" . $p->style(), "style1") ?>">
-            <?php if ($p_image = $p->image($p->cover())): ?>
+    <?php foreach ($page->tiles()->toStructure() as $p): ?>
+        <article class="<?php echo $p->tile_style() ?>">
+            <?php if ($p_image = $page->image($p->tile_cover())): ?>
                 <span class="image">
                     <img src="<?php echo $p_image->url() ?>" alt="" />
                 </span>
             <?php endif; ?>
-            <a href="<?php echo $p->url() ?>">
-                <h2><?php echo $p->title()->html() ?></h2>
+            <a href="<?php echo $p->tile_page()->url() ?>">
+                <h2><?php echo $p->tile_title()->html() ?></h2>
 
                 <div class="content">
-                    <?php echo $p->home_text()->kirbytext() ?>
+                    <?php echo $p->tile_text()->kirbytext() ?>
                 </div>
             </a>
         </article>
