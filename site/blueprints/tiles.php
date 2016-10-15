@@ -20,6 +20,10 @@ fields:
   cover:
     label: Cover
     type: text
+  home_text:
+    label: Home Text
+    type: textarea
+    size: large
   text:
     label: Text
     type:  textarea

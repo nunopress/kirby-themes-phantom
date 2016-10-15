@@ -10,7 +10,7 @@
                 <h2><?php echo $p->title()->html() ?></h2>
 
                 <div class="content">
-                    <?php echo $p->text()->kirbytext() ?>
+                    <?php echo $p->home_text()->kirbytext() ?>
                 </div>
             </a>
         </article>
