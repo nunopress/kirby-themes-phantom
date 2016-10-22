@@ -4,11 +4,11 @@ return function ($site, $pages, $page, $args) {
     $query = get('contact');
 
     if (! $query) {
-        return;
+        return false;
     }
 
     if (! empty($query['antibot'])) {
-        return;
+        return false;
     }
 
     $email = email([
@@ -18,5 +18,9 @@ return function ($site, $pages, $page, $args) {
         'body' => $query['message']
     ]);
 
-    return ($email->send()) ? [ 'success_form_sending' => true ] : [ 'contact_form_error' => $email->error() ];
+    $response = ($email->send()) ? true : $email->error();
+
+    return [
+        'sending_email_response' => $response
+    ];
 };

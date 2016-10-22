@@ -2,8 +2,12 @@
     <section id="contact">
         <h2>Get in touch</h2>
 
-        <?php if (isset($success_form_sending)) : ?>
-            <h3><?php echo $success_form_sending ?></h3>
+        <?php if (isset($sending_email_response)) : ?>
+            <?php if (true !== $sending_email_response): ?>
+                <h3>Form sending error: <?php echo $sending_email_response ?></h3>
+            <?php else: ?>
+                <h3>Form sending successfully! Thanks for contact us.</h3>
+            <?php endif ?>
         <?php endif; ?>
 
         <form method="post" action="#contact">
