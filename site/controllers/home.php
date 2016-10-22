@@ -18,7 +18,11 @@ return function ($site, $pages, $page, $args) {
         'body' => $query['message']
     ]);
 
-    $response = ($email->send()) ? true : $email->error();
+    try {
+        $response = $email->send();
+    } catch (Error $e) {
+        $response = $e->getMessage();
+    }
 
     return [
         'sending_email_response' => $response
